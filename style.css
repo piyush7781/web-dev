@@ -1,0 +1,29 @@
+h1{
+	color:white;
+}
+body{
+	background:black;
+
+}
+.p{
+	color:white;
+	font-size: 200%
+}
+p{
+	color:white;
+	font-size: 150%
+}
+
+input{
+	color:black;
+	background:white;
+height:40px;
+width:200px;
+}
+.email{
+	height:40px;
+	width:410px;
+}
+placeholder{
+	font-size: 100%
+}
