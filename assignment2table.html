@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="tables">
+        <title>creating tables using html,css</title>
+        <style type="text/css">
+            th{
+                
+                color:red;
+            }
+            .gray_background{
+                background-color: lightgray
+            }
+            .purple{
+                color:purple;
+                font-weight: bold;
+            }
+            td{
+                border-style: dotted;
+
+            }
+            table{
+                border:1px solid black;
+                border-collapse:collapse;
+            }
+        </style>
+    </head>
+    <body>
+<table  border="1" cellpadding="2 px" width=50%>
+    <tr>
+        <th colspan="4" >STUDENT INFORMATION</th>
+    </tr>
+    <tr class="gray_background border">
+        <td colspan="2" style="color:blue"><strong>Name  AND <u>Roll No</u></strong></td>
+        <td colspan="2" style="color:blue">Contact No. AND <u>Email ID</u></td>
+    </tr>
+<tr class="purple">
+<td>Name</td>
+<td><u>Roll No</u></td>
+<td>Contact No.</td>
+<td><u>E-mail ID</u></td>
+</tr>
+<tr class="gray_background">
+    <td>A</td>
+    <td>10</td>
+    <td>1234567890</td>
+    <td><u>abc@gmail.com</u></td>
+</tr>
+<tr>
+    <td>B</td>
+    <td>20</td>
+    <td>1234567890</td>
+    <td>xyz@gmail.com</td>
+</tr>
+<tr class="gray_background">
+    <td>C</td>
+    <td>30</td>
+    <td>1234567890</td>
+    <td><u>abcd@gmail.com</u></td>
+</tr>
+<tr>
+    <td>D</td>
+    <td>40</td>
+    <td>1234567890</td>
+    <td><u>jkl@gmail.com</u></td>
+</tr>
+</table>
+    </body>
+</html>
